@@ -10,3 +10,5 @@ Corey Mekelberg
 Adam Mcalpine
 
 Tenative Project: https://github.com/Pythagora-io/gpt-pilot
+
+operational environment: Enterprise 
