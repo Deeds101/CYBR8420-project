@@ -1,9 +1,10 @@
 # CYBR8420-project
 
-Project team name: Channel four news team
+Project team name: Channel Four News Team
 
 
 Team:
+Ryan Thompson
 Joseph Diedrichsen
 Kendra Herrmann
 Corey Mekelberg
