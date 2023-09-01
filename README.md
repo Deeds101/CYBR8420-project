@@ -1,6 +1,6 @@
 ## CYBR8420-project
 
-## Project team name: Channel Four News Team
+## Project Team Name: Channel Four News Team
 
 
 #
