@@ -12,19 +12,19 @@
 - Adam Mcalpine
 - Brevin Wagner
 
-## **Tenative Project: https://github.com/Pythagora-io/gpt-pilot**
+## **Project: https://github.com/itflow-org/itflow/blob/master/README.md
 
 **Operational Environment:** Enterprise
 
-**Motivations:** We are all intrested in AI and the impact that it can have on the security posture of the enterprise. 
+**Motivations:** 
 
-**What is it:** This is a research project to see how can GPT-4 be utilized to generate fully working, production-ready, apps. The main idea is that AI can write most of the code for an app (maybe 95%) but for the rest 5%, a developer is and will be needed until we get full AGI.
+**What is it:** 
 
-**Contributors:** Small team comprised of 15 people. 
+**Contributors:** Small team comprised of 13 people. 
 
 **Discord:** [Project Server](https://discord.com/invite/FWnRZdCb)
 
-There has been no security incidents with this open source project because it is so new.
+**Security**
 
 
 # **Proposal Check List**
