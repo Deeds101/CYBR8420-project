@@ -12,15 +12,10 @@
 - Adam Mcalpine - Project Manager
 - Brevin Wagner - Technical Analyst
 
-<<<<<<< HEAD
 ## **Project: [IT Flow](https://github.com/itflow-org/itflow)**
-=======
-## **Project: https://github.com/itflow-org/itflow/blob/master/README.md
->>>>>>> b525d71148110ea64e2f30991300ec95f8e73ef8
 
 **Operational Environment:** MSPs are widely used by small to medium sized businesses. Small to medium sized businesses become easy targets for low-risk-low-reward attacks. MSPs, however, are a single point of attack for an adversary to takeover many of these SMBs in one fell swoop. ITFlow will need to operate on an externally or internally available webpage to allow an MSP to have access to their client information. Wherever this software is hosted, it will be a likely point for attackers to converge. ITFlow must work under load to assist in securing client passwords and data while being available to field workers and office employees. 
 
-<<<<<<< HEAD
 **Diagram of Software System**
 
 **Threats Percieved by Users:**
@@ -31,21 +26,10 @@
 * Account Logins
 * Role-based access control
 * Password Encryption (AES)
-=======
-**Motivations:** 
-
-**What is it:** 
-
-**Contributors:** Small team comprised of 13 people. 
->>>>>>> b525d71148110ea64e2f30991300ec95f8e73ef8
 
 **Motivations:**  MSP software is vital to hundreds of small to medium sized companies in order to help them manage a varied client base that contains a myriad of hardware, software, and policies. ITFlow is a software that aims to compile company passwords, documentation, and financing information all in one portal to make MSP management more accessible. This kind of software is of vital importance to an MSP and is one of their most targeted assets by threat actors. In addition to the software being a target and source of risk for an MSP, MSPs themselves are a watering hole for attackers and adversaries since they hold the "keys to the kingdom" of many other targets. If an MSP is compromised, it can be assumed that each of their clients will be compromised, as well. Unfortunately, not every MSP is able afford security-rich software such as ITGlue to help them maintain or improve their security posture. ITFlow is an open-source solution for smaller, growing businesses to assist them in managing and securing their clients. Our team memeber, Corey Mekelburg, works at an MSP professionally and has a good understanding of how they work and what kind of security they need. We hope this will be an excellant contribution to Quality Assurance of the open source project.
 
-<<<<<<< HEAD
-**Description of the Software:**
-=======
 **Security** 
->>>>>>> b525d71148110ea64e2f30991300ec95f8e73ef8
 
 **Licensing and Contributor Agreements:**
 
