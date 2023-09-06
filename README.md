@@ -4,7 +4,7 @@
 ### **Channel Four News Team : https://github.com/Deeds101/CYBR8420-project.git**
 
 #
-# Team: [Discord LInk](https://discord.gg/eVmCJA64)
+# Team: [Discord Link](https://discord.gg/eVmCJA64)
 - Ryan Thompson - Team Lead
 - Joseph Diedrichsen - Technical Analyst
 - Kendra Herrmann - Scribe/Documentation
@@ -43,8 +43,8 @@ The main point of contention amongst our team was finding a scheduled time to wo
 - [x] Name of an open-source software project your team has chosen to work on. From here on, it will be referred to as “software”.
 - [x] Describe a hypothetical operational environment (e.g., home, office, enterprise, bank, government, etc.) where the users will expect security functionality from the software.
     - [ ] Provide a diagram that identifies the systems engineering view of the software in the hypothetical environment. **Still Need**
-    - [ ] What are the threats perceived by users of the software in its intended operational environment? (If there are none or very few, then re-evaluate your project selection.) **Still Need**
-    - [ ] Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice).**Still Need**
+    - [x] What are the threats perceived by users of the software in its intended operational environment? (If there are none or very few, then re-evaluate your project selection.)
+    - [x] Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice).
 - [x] Team motivation for selecting this project.
 - [ ] Open-source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc. You can get some of this information from Github or OpenHubLinks to an external site.)**Still Need**
 - [ ] Discuss License, procedures for making contributions, and contributor agreements**Still Need**
