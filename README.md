@@ -68,7 +68,7 @@ The main point of contention amongst our team was finding a scheduled time to wo
     - [x] What are the threats perceived by users of the software in its intended operational environment? (If there are none or very few, then re-evaluate your project selection.)
     - [x] Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice).
 - [x] Team motivation for selecting this project.
-- [ ] Open-source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc. You can get some of this information from Github or OpenHubLinks to an external site.)**Still Need**
+- [x] Open-source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc. You can get some of this information from Github or OpenHubLinks to an external site.)
 - [ ] Discuss License, procedures for making contributions, and contributor agreements**Still Need**
 - [ ] A brief summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ).**Still Need**
 - [ ] Include a reflection on your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward? **Still Need**
