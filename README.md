@@ -41,7 +41,7 @@
 ITFlow is a software that consolidates common MSP needs into one system; including IT Documentation, ticketing, and billing. ITFlow is self-hosted and includes the ability to be accessed via a web browser. Currently, ITFLow is in Beta and has had 13 contributors to help build the project out in PHP, CSS, and JavaScript. Edits have been committed to GitHub for this project within the last week (week of 9-8-2023). Documentation for ITFlow can be found on it's public GitHub, referenced above. 
 
 **Licensing and Contributor Agreements:**
-ITFlow is distributed "as is" under the GPL License, WITHOUT WARRANTY OF ANY KIND.
+ITFlow is distributed "as is" under the GPL License, WITHOUT WARRANTY OF ANY KIND.  This is a free, copyleft license that allows users to modify and reuse the software without any restrictions.  The only condition is that all modifications must be made freely available to other users.
 
 **Security History:** This open-source project has a robust reporting feature that will make it easy to notify the owners that there is a security incident.
 
