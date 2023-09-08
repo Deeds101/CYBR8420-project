@@ -32,6 +32,7 @@
 **Security** 
 
 **Licensing and Contributor Agreements:**
+ITFlow is distributed "as is" under the GPL License, WITHOUT WARRANTY OF ANY KIND.
 
 **Security History:** This open-source project has a robust reporting feature that will make it easy to notify the owners that there is a security incident.
 
