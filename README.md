@@ -14,7 +14,7 @@
 
 ## **Project: [IT Flow](https://github.com/itflow-org/itflow)**
 
-**Operational Environment:** MSPs are widely used by small to medium sized businesses. Small to medium sized businesses become easy targets for low-risk-low-reward attacks. MSPs, however, are a single point of attack for an adversary to takeover many of these SMBs in one fell swoop. ITFlow will need to operate on an externally or internally available webpage to allow an MSP to have access to their client information. Wherever this software is hosted, it will be a likely point for attackers to converge. ITFlow must work under load to assist in securing client passwords and data while being available to field workers and office employees. 
+**Operational Environment:** Managed Service Providers (MSPs) are widely used by small to medium sized businesses. While these businesses are often times of targets of cyber attacks, MSPs allow attackers to exploit a single vulnerability that can have expansive affects on multiple businesses.  As a result, ITFlow will need to ensure a secure connection can be established for the secure handling of confidential information.  This may be accomplished by allowing the software to be downloaded onto the client's internal network or operated externally via a website. Regardless, ITFlow will need ensure adequate converage to ensure client passwords and data is properly secured while ensuring consistent availability to users. 
 
 **Diagram of Software System**
 
