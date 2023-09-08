@@ -22,6 +22,8 @@
 
 
 **Threats Percieved by Users:**
+* Inadequate backup and recovery capabilities
+* Loss of documentation
 * Lack of Availability
 * Unauthorized Access
 
