@@ -44,7 +44,7 @@ ITFlow is a software that consolidates common MSP needs into one system; includi
 ITFlow is distributed "as is" under the GPL License, WITHOUT WARRANTY OF ANY KIND.  This is a free, copyleft license that allows users to modify and reuse the software without any restrictions.  The only condition is that all modifications must be made freely available to other users.
 
 **Process for making contributions:**
-If a security issue is discovered, it is to be reported to [report it](https://github.com/itflow-org/itflow/security/advisories/new)
+If a security issue is discovered, it is to be reported to [report it](https://github.com/itflow-org/itflow/security/advisories/new)  Expect to receive an initial acknowledgement within 72 hours.
 
 **Security History:** This open-source project has a robust reporting feature that will make it easy to notify the owners that there is a security incident.
 
