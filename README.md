@@ -24,6 +24,8 @@
 **Threats Percieved by Users:**
 * Inadequate backup and recovery capabilities
 * Loss of documentation
+* Lack of vulnerability and patch Management
+* Ransomware
 * Lack of Availability
 * Unauthorized Access
 
