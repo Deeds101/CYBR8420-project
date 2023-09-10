@@ -53,7 +53,8 @@ If a security issue is discovered, it is to be reported to [report it](https://g
 
 **Security History:** This open-source project has a robust reporting feature that will make it easy to notify the owners that there is a security incident.
 
-ITFlow has had two separate security advisories that the public is allowed to see.
+ITFlow has had that following two security advisories that the public is allowed to see.
+
 March 5, 2023: Persistent XSS 
 
 Impact:
