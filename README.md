@@ -55,13 +55,13 @@ If a security issue is discovered, it is to be reported to [report it](https://g
 
 ITFlow has had that following two security advisories that the public is allowed to see.
 
-March 5, 2023: Persistent XSS 
+(1) March 5, 2023: Persistent XSS 
 
 Impact:
 ITFlow (Beta commits prior to 75da31d) is affected by persistent XSS vulnerabilities.
 An authenticated application user could execute arbitrary web scripts or HTML in the browser context of other application users by injecting a crafted payload.
 
-May 12, 2023: Authenticated users can craft a POST request to delete any file on the webserver
+(2) May 12, 2023: Authenticated users can craft a POST request to delete any file on the webserver
 
 Impact:
 - Loss of availability
