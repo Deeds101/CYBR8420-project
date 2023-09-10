@@ -46,7 +46,7 @@ ITFlow is a software that consolidates common MSP needs into one system; includi
 ITFlow is distributed "as is" under the GPL License, WITHOUT WARRANTY OF ANY KIND.  This is a free, copyleft license that allows users to modify and reuse the software without any restrictions.  The only condition is that all modifications must be made freely available to other users.
 
 **Contributor Agreement:**
-Contributors are to fork the repo and create a pull request.  While making contributions, individuals are to follow the code of standards (https://docs.itflow.org/code_standards).  A discussion is to be held with the other contributors if larger changes/new features are expected to be implemented.
+Contributors are to fork the repo and create a pull request.  While making contributions, individuals are to follow the [code of standards](https://docs.itflow.org/code_standards).  A discussion is to be held with the other contributors if larger changes/new features are expected to be implemented.
 
 **Process for making contributions:**
 If a security issue is discovered, it is to be reported to [report it](https://github.com/itflow-org/itflow/security/advisories/new)  Expect to receive an initial acknowledgement within 72 hours.
