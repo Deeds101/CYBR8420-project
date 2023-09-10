@@ -63,12 +63,10 @@ An authenticated application user could execute arbitrary web scripts or HTML in
 May 12, 2023: Authenticated users can craft a POST request to delete any file on the webserver
 
 Impact:
--  Loss of availability
+- Loss of availability
 - Catastrophic consequences if the webserver administrator is lazy and has www-data in the sudoers file
 - https://demo.itflow.org/ could potentially be taken down along with any other websites in the web directory
 - Security breach in division of account roles (for example, the Expenses page and expenses-related functions should not be available to technicians)
-
-**TEST**
 
 
 **Reflection:**
