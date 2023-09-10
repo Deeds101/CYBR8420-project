@@ -17,6 +17,7 @@
 **Operational Environment:** Managed Service Providers (MSPs) are widely used by small to medium sized businesses. While these businesses are often times of targets of cyber attacks, MSPs allow attackers to exploit a single vulnerability that can have expansive affects on multiple businesses.  As a result, ITFlow will need to ensure a secure connection can be established for the secure handling of confidential information.  This may be accomplished by allowing the software to be downloaded onto the client's internal network or operated externally via a website. Regardless, ITFlow will need to ensure adequate converage to ensure client passwords and data is properly secured while ensuring consistent availability to users. 
 
 **Diagram of Software System**
+
 <img width="560" alt="image" src="https://github.com/Deeds101/CYBR8420-project/assets/87542247/818b8055-7ce7-4fb5-b9e1-4c08f86e6bcb">
 
 
