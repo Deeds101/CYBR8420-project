@@ -1,8 +1,3 @@
-Assignment Two - Use and Misuse Cases
-/home/doom/Downloads/SQL Injection.drawio.png
-
-
-
 ## Use and Misuse Case Diagrams and Reflection
 **[Password Management Use/Misuse Analysis](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/Password%20Management%20-%20Use%20and%20Misuse%20Case%20Diagram.PNG):**
  ![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/e8547fa6-b1e0-41a5-9d3b-fbdea9a0370b)
