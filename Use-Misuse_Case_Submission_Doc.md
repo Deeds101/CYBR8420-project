@@ -22,7 +22,7 @@ SUMMARY: In reviewing the forum for ITFlow, there was a ticket created for them 
 **Individual Contributions:**
 - Adam McAlpine (Atmcalpine): Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
 - Kendra Herrmann (kdherrm88): Developed Email Tracker Diagram as well as provide feedback on teammate's diagrams. Assisted the team with markdown documentation and attended team meetings and engaged in discussion.
-- Ryan Thompson (DoomDragoon): Developed Diagram for database security. Provided feedback on issues and discussion. Scheedled additional team meetings for engaging collaboration and development of markdown document/review.
+- Ryan Thompson (DoomDragoon): Developed Diagram for database security. Provided and received feedback on issues and discussions. Scheduled additional team meetings to facilitate engaging collaboration and development of diagrams and markdown document review.
 
 
 **Reflection:**
