@@ -29,3 +29,6 @@
 
 [] Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
  - The purpose of this task is to review security-related documentation of the project and find ways to improve it. Open source projects are always looking for contributors for their documentation. It may also allow you to get to know the open source community and procedures to contribute.
+
+##Password Management Use/Misuse Analysis:
+ - This abuse case analysis focused on the processes, controls, and threats that may impact the ITFLOW (software) from a password management perspective. As demonstrated within the diagram the data analyst (user) would most likely leverage the password management functions of the software for logging on to the system, changing passwords, and setting up new accounts. Review of system documentation and issue remediation documentation available through the ITFLOW github page it was determined that controls were in place to address a number of attack methods that may be carried out by a disgruntled employees. Despite these controls, it's important to consider that management of user access capabilities by an authorized System Admin internal to each organization leveraging this software to ensure internal information and capabilities are appopriately restricted to only active, authorized personnel.
