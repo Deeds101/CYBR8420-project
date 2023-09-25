@@ -18,7 +18,7 @@ SUMMARY: Database attacks are so hot right now. According to past issues, SQL in
 
 SUMMARY: In reviewing the forum for ITFlow, there was a ticket created for them to address an issue where an email was sent into the IT Helpdesk for a company and it continually created new tickets within the ITFlow dashboard. This could potentially cause problems if the emails were automatically routed to the folder to create a ticket, and since the parser runs with a cronjob, it could easily overload the dashboard, and eventually the IT Helpdesk workers. According to the forum, this issue was fixed with a code push 5 days ago.
 
-**[Role-Based-Access-Control](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/RBAC_Final.PNG)**
+**[Role-Based-Access-Control](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/RBAC_Final.PNG):**
 
 SUMMARY: I was searching the forums for features that were going to be implemented or bugs that needed squashing. I read over a couple of cases that intersected with a need for a Role-based access control system. One of the bugs that I read on the forums, as well as being pointed out by my project team, is that a Security Researcher discovered that the code is vulnerable with an SQL injection on the client page, this got fixed. There was also an IDOR vulnerability with the fact that people could visit vital site pages if they had a valid URL, This got put in the release milestone 1.0.
 
