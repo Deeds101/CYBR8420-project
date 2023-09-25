@@ -23,7 +23,8 @@
 
 **Individual Contributions:**
 - Adam McAlpine: Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
-- Kendra Herrmann: Developed Email Tracker Diagram as well as provided feedback on teammate's diagrams. Assisted the team with markdown documentation and attended team meetings and engaged in discussion. 
+- Kendra Herrmann: Developed Email Tracker Diagram as well as provided feedback on teammate's diagrams. Assisted the team with markdown documentation and attended team meetings and engaged in discussion.
+- 
 [] Include a reflection of your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward?
 
 **Reflection:**
