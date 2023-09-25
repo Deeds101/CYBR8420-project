@@ -17,7 +17,7 @@ Assignment Two - Use and Misuse Cases
 SUMMARY: In reviewing the forum for ITFlow, there was a ticket created for them to address an issue where an email was sent into the IT Helpdesk for a company and it continually created new tickets within the ITFlow dashboard. This could potentially cause problems if the emails were automatically routed to the folder to create a ticket, and since the parser runs with a cronjob, it could easily overload the dashboard, and eventually the IT Helpdesk workers. According to the forum, this issue was fixed with a code push 5 days ago.
 
 **Individual Contributions:**
-- Adam McAlpine: Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
+- Adam McAlpine (Atmcalpine): Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
 - Kendra Herrmann: Developed Email Tracker Diagram as well as provided feedback on teammate's diagrams. Assisted the team with markdown documentation and attended team meetings and engaged in discussion.
 
 **Reflection:**
