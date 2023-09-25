@@ -1,5 +1,5 @@
 ## Use and Misuse Case Diagrams and Reflection
-**Overaching Summary to Use/Misuse Analyses**
+**Overarching Summary to Use/Misuse Analyses**
 - TBD
 
 **[Password Management Use/Misuse Analysis](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/Password%20Management%20-%20Use%20and%20Misuse%20Case%20Diagram.PNG):**
@@ -14,6 +14,7 @@
 
 **[Email Tracker](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/use%20misuse%20case%20(email%20tracking).png):**
 ![image](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/use%20misuse%20case%20(email%20tracking).png)
+
 SUMMARY: In reviewing the forum for ITFlow, there was a ticket created for them to address an issue where an email was sent into the IT Helpdesk for a company and it continually created new tickets within the ITFlow dashboard. This could potentially cause problems if the emails were automatically routed to the folder to create a ticket, and since the parser runs with a cronjob, it could easily overload the dashboard, and eventually the IT Helpdesk workers. According to the forum, this issue was fixed with a code push 5 days ago.
 
 **Project Board: [ITFLOW Use-Misuse Projects](https://github.com/users/Deeds101/projects/3/views/1)**
