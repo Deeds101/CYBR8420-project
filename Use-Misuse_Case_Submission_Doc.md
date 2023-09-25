@@ -11,6 +11,8 @@
 **[Database Security Use/Misuse](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/SQL%20Injection.drawio.png):**
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/2a989453-0485-4e2b-88cf-5140a9a84ed9)
 
+SUMMARY: Database attacks are so hot right now. According to past issues, SQL injection was an attack that IT Flow was vulnerable to, which was corrected. IT Flow also encrypts dataflow and APIs, whcih protects against generic theft of data. Currently, an attacker could compromise an inactive account and use to gain access to the system. An account purge would be an effective means of mitigating this attack. Removing old, inactive, or termed employee accounts would be an important event to factor in.
+
 
 **[Email Tracker](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/use%20misuse%20case%20(email%20tracking).png):**
 ![image](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/use%20misuse%20case%20(email%20tracking).png)
@@ -20,6 +22,8 @@ SUMMARY: In reviewing the forum for ITFlow, there was a ticket created for them 
 **Project Board: [ITFLOW Use-Misuse Projects](https://github.com/users/Deeds101/projects/3/views/1)**
 
 **Individual Contributions:**
+Each individual wrote the summary for their respective diagram.
+
 - Adam McAlpine (Atmcalpine): Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
 - Kendra Herrmann (kdherrm88): Developed Email Tracker Diagram as well as provide feedback on teammate's diagrams. Assisted the team with markdown documentation and attended team meetings and engaged in discussion.
 - Ryan Thompson (DoomDragoon): Developed Diagram for database security. Provided and received feedback on issues and discussions. Scheduled additional team meetings to facilitate engaging collaboration and development of diagrams and markdown document review.
