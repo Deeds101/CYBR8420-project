@@ -22,9 +22,10 @@ SUMMARY: In reviewing the forum for ITFlow, there was a ticket created for them 
 
 SUMMARY: I was searching the forums for features that were going to be implemented or bugs that needed squashing. I read over a couple of cases that intersected with a need for a Role-based access control system. One of the bugs that I read on the forums, as well as being pointed out by my project team, is that a Security Researcher discovered that the code is vulnerable with an SQL injection on the client page, this got fixed. There was also an IDOR vulnerability with the fact that people could visit vital site pages if they had a valid URL, This got put in the release milestone 1.0.
 
-**BILLING PLACEHOLDER:**
+**[Billing](https://github.com/Deeds101/CYBR8420-project/blob/main/Use-Misuses%20Case%20Diagrams/Final%20Diagrams/Use-Misuse%20Case%20Billing.png):**
+![image](https://github.com/Deeds101/CYBR8420-project/assets/143226996/3b168fc1-ce4d-4a61-aa3e-32145dee706e)
 
-SUMMARY: Placeholder
+SUMMARY: One of the core components of the ITFlow software is the Sales and Billing portion. At the heart of this component is the billing functionality which allows you to create and track invoices then send out requests for payment. My goal with my Use-Misuse case diagram was to document potential ways the Billing feature could be exploited. Since the tool consists of mostly internal components, I used the lens of a rogue employee as the attack actor. From this viewpoint, I documented potential attacks that could be done to the Billing system and various features or designs which would help mitigate against the rogue employee. Through a robust backup, auditing, and role framework, a majority of the attacks that I foresaw could be prevented. 
 
 
 **Project Board: [ITFLOW Use-Misuse Projects](https://github.com/users/Deeds101/projects/3/views/1)**
