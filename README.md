@@ -74,20 +74,6 @@ Impact:
 **Reflection:**
 The main point of contention amongst our team was finding a scheduled time to work on the project. We have a diverse background of students working on this project - parents, full-time employees, coaches, and hobbyists. This diversity provides for an enriching experience, however, it also required more effort to be put into the planning phase of our project. It should be a testament to our teamwork that we were able to successfully find a timeslot for us to work together in a continued fashion. It is to be expected that scheduling may become an issue again in the future, as plans change, but we as a group have decided that we will need to be lenient and flexible in order to reach our deadlines. 
 
-# **Proposal Check List**
-- [x] A link to your team's public GitHub repository that shows your internal project task assignments and collaborations to finish this task.
-- [x] Name of an open-source software project your team has chosen to work on. From here on, it will be referred to as “software”.
-- [x] Describe a hypothetical operational environment (e.g., home, office, enterprise, bank, government, etc.) where the users will expect security functionality from the software.
-    - [ ] Provide a diagram that identifies the systems engineering view of the software in the hypothetical environment. **Still Need**
-    - [x] What are the threats perceived by users of the software in its intended operational environment? (If there are none or very few, then re-evaluate your project selection.)
-    - [x] Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice).
-- [x] Team motivation for selecting this project.
-- [x] Open-source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc. You can get some of this information from Github or OpenHubLinks to an external site.)
-- [ ] Discuss License, procedures for making contributions, and contributor agreements**Still Need**
-- [ ] A brief summary of security-related history for the software (E.g., known vulnerabilities, security-related engineering decisions, security feature additions/removal, etc. ).**Still Need**
-- [ ] Include a reflection on your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward? **Still Need**
-
-
 
 ## Backup Projects:
 
