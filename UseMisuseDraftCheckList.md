@@ -16,6 +16,7 @@
 
 [] *Show your internal project task assignments and collaborations to finish this task in a Github Project Board.*\
 [] Provide a link to this board.\ 
+##Project Board: ITFLOW Use-Misuse Projects[https://github.com/users/Deeds101/projects/3]
 [] Include a summary of your individual contributions.\
 ##Individual Contributions:
 - Adam McAlpine: Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
