@@ -56,3 +56,6 @@ Each individual wrote the summary for their respective diagram.
 # Part 2
 **Overarching Summary to Use/Misuse Analyses**
 - TBD
+
+
+Setting up the VM was not that difficult, I would have liked more of a in-depth explanation for what i was doing as well as a more fleshed out explanation of generating the public.pem and private.key with OpenSSH. Configuing ITFlow was not that difficult either, again i would have appriciated more in-depth explanation of what was going on. 
