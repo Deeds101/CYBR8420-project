@@ -41,7 +41,7 @@ Each individual wrote the summary for their respective diagram.
 
 - Adam McAlpine (Atmcalpine): Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
 - Kendra Herrmann (kdherrm88): Developed Email Tracker Diagram as well as provide feedback on teammate's diagrams. Assisted the team with markdown documentation and attended team meetings and engaged in discussion.
-- Ryan Thompson (DoomDragoon): Developed Diagram for database security. Provided and received feedback on issues and discussions. Scheduled additional team meetings to facilitate engaging collaboration and development of diagrams and markdown document review.
+- Ryan Thompson (DoomDragoon): Developed Diagram for database security. Provided and received feedback on issues and discussions. Scheduled additional team meetings to facilitate engaging collaboration and development of diagrams and markdown document review. Ensured deadline was met and all requirements were completed to the best of our understanding.
 - Joseph Diedrichsen (Deeds101): Developed RBAC diagram as well as provided feedback on this week's project milestone. Reviewed the codebase to see if there were any more bugs that stood out. Attended team meetings as well as participated in and made a discussion board for further collaboration.
 - Corey Mekelburg (Cojajomaco) - Developed Billing Diagram, provided feedback on teammate's diagrams, engaged in discussions, and assisted with markdown documentation. Absent for team meeting due to a vacation taking place during the scheduled time.  
 
