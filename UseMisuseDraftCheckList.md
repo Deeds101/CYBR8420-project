@@ -25,6 +25,7 @@
 - Adam McAlpine: Developed Password Management Diagram, provided feedback on team-mate diagrams, aided in the development of the markdown document, and actively engaged in team discussions.
 - Kendra Herrmann: Developed Email Tracker Diagram as well as provided feedback on teammate's diagrams. Assisted the team with markdown documentation and attended team meetings and engaged in discussion.
 - Brevin Wagner: Developed MFA Diagram, provided feedback and colaboration on teammate's and selfs diagrams, attended avilable team meetings and took and gave constructive feedback and assistance from everyone.
+
 [] Include a reflection of your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward?
 
 **Reflection:**
