@@ -1,4 +1,4 @@
-#Assignment Part 1
+# Assignment Part 1
 
 [] Using the findings from the requirements assignment, develop five to six top-level claims.  List these claims in your report.
 - Top-level claims pertain to high-risk critical security properties
@@ -7,7 +7,7 @@
 - Use proper notations and ensure proper wording of assurance case elements. Avoid typos and grammatical errors as they can be distracting to stakeholders reading the assurance case for making trust decisions. 
 - Assurance cases should have reasonable depth and breadth to convince a technical expert. It is expected that the argument is coherent and convincing. 
 
-#Assignment Part 2
+# Assignment Part 2
 [] Assess the alignment of the evidence you identified in your diagrams with that available (or can be made available) from the OSS project. Highlight the gaps.
 [] Include a link to your team's GitHub repository that shows your internal project task assignments and collaborations to finish this task. 
 [] Include a reflection on your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward? 
