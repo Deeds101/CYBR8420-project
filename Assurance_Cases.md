@@ -2,7 +2,8 @@
 ### 1.1 Assurance Case 1
 **Assurance Case: Login Credential Security**  ITFlow sufficiently secures credentials from unauthorized use.
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/a012515c-b539-4bc7-96a6-0e79a9881153)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/0b9d6526-0e8b-403a-ba15-c55823ea735d)
+
 
 
 ### 1.2 Assurance Case 2
