@@ -30,7 +30,7 @@
 
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/38c4c268-b823-4a82-a6fc-8c401c0f16de)
 
-## Part 2: Evidence Alignment
+## Part 2: Evidence Alignment Observations
 ### 2.1 Assurance Case 1
 #### *2.1.1 Available Evidence*
 ***E1 - Manual review of source code*** \
@@ -40,8 +40,8 @@
 ***E2 - ITFlow Password Policy*** \
 ***E5 - Review of logging configuration report*** \
 
-## 3. Project Board Link
+## Project Board Link
 
-## 4. Teamwork Reflection
+## Teamwork Reflection
 
 
