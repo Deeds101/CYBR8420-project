@@ -40,7 +40,7 @@
 ***E2 - ITFlow Password Policy*** \
 ***E5 - Review of logging configuration report*** \
 
-## Project Board Link
+## Project Board Link: [Assurance Case Project Board](https://github.com/users/Deeds101/projects/4/views/1)
 
 ## Teamwork Reflection
 
