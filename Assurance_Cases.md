@@ -33,11 +33,11 @@
 ## Part 2: Evidence Alignment
 ### 2.1 Assurance Case 1
 #### *2.1.1 Available Evidence*
-***E1 - Manual review of source code
-***E3 - Manual review of password related source code
-***E4 - Pentration test results
+***E1 - Manual review of source code*** \
+***E3 - Manual review of password related source code*** \
+***E4 - Pentration test results*** \
 #### *2.1.2 Insufficient Evidence*
-***E2 - ITFlow Password Policy
-***E5 - Review of logging configuration report
+***E2 - ITFlow Password Policy*** \
+***E5 - Review of logging configuration report*** \
 
 
