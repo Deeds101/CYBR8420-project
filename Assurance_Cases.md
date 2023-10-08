@@ -2,7 +2,8 @@
 ### 1.1 Assurance Case 1: Login Credential Security
 **Assurance Case:**   ITFlow sufficiently secures credentials from unauthorized use.
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/fc1cf3e8-b0b2-4b4c-a844-0579dd943f40)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/0c083090-ce4a-4ea6-a55d-c0cb8d0b114b)
+
 
 ### 1.2 Assurance Case 2: Database Security
 **Assurance Case:**  The ITFlow database meets security expectations. 
@@ -31,6 +32,7 @@
 ### 2.1 Assurance Case 1
 #### *2.1.1 Available Evidence*
 ***E1 - Manual review of source code*** \
+In the (log settings documentation)[https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/logs.php#L17], ITFlow logs IP addresses associated with each login attempt.  This information is retained within an Audit Log document within the database.  This information is then reviewed in future login attempts as part of the (login settings documentation)[https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/login.php#L3] where if fifteen or more failed login attempts are identified, then the corresponding IP address is automatically locked out by the system.  Based on this information and the results of the manual review of the source code, it was believed that while this control will likely block some brute force attacks, it could easily be bypassed by periodically changing IP addresses.  Further, if a threat actor just wanted to lockout the system, they could identify the IP information being using by the organization leveraging the system and repeatedly block access to the organization via a bot.
 ***E3 - Manual review of password related source code*** \
 ***E4 - Pentration test results*** \
 #### *2.1.2 Insufficient Evidence*
