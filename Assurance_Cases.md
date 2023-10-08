@@ -38,6 +38,7 @@ In the [password rotation documentation](https://github.com/itflow-org/itflow/bl
 ***E5 - Assurance Case on Database Security*** \
 See the Database Security Assurance case for additional information 2.2.<br><br>
 ***E6 - Test results from attempting to execute a stack overflow attack*** \
+<br><br>
 ***E7 - Review of logging configuration report*** \
 Review of the [login configuration documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/login.php) determined that 
 ITFlow only required the following for a user to successfully login:
