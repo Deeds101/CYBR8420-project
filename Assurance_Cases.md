@@ -2,7 +2,7 @@
 ### 1.1 Assurance Case 1: Login Credential Security
 **Assurance Case:**   ITFlow sufficiently secures credentials from unauthorized use.
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/e8411a2b-02a0-43a0-99fb-7e9ca84ac9f0)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/df89365b-5baf-488f-9b0a-74fed155db83)
 
 ### 1.2 Assurance Case 2: Database Security
 **Assurance Case:**  The ITFlow database meets security expectations. 
@@ -33,9 +33,8 @@ Reflection: My diagram went through many different shifts. Orginally, I had want
 #### *2.1.1 Available Evidence*
 ***E3 - Manual review of password related source code*** \
 In the [password rotation documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/report_password_rotation.php#L4) it was validated that ITFlow will lock out user accounts where the passwords had not been changed within the last 90 days.  In addition, a report of these accounts is also made available to users with elevated access privileges for review/escalation purposes. As such, this control was considered to be sufficient to ensure passwords were being periodically changed to minimize the risk of brute force attacks.<br><br>
-***E4 - Login/input rule documentation review*** \
-***E5 - Test results from attempting to execute a stack overflow attack*** \
-***E6 - Review of logging configuration report*** \
+***E4 - Test results from attempting to execute a stack overflow attack*** \
+***E5 - Review of logging configuration report*** \
 Review of the [login configuration documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/login.php) determined that 
 ITFlow only required the following for a user to successfully login:
 - Users are required to login from a HTTPS address for enhanced security.
