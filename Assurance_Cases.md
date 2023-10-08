@@ -2,7 +2,7 @@
 ### 1.1 Assurance Case 1: Login Credential Security
 **Assurance Case:**   ITFlow sufficiently secures credentials from unauthorized use.
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/df89365b-5baf-488f-9b0a-74fed155db83)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/e5309200-895f-4565-9889-bbe2a827e4af)
 
 ### 1.2 Assurance Case 2: Database Security
 **Assurance Case:**  The ITFlow database meets security expectations. 
@@ -31,10 +31,14 @@ Reflection: My diagram went through many different shifts. Orginally, I had want
 ## Part 2: Evidence Alignment Observations
 ### 2.1 Assurance Case 1
 #### *2.1.1 Available Evidence*
-***E3 - Manual review of password related source code*** \
+***E1 - Assurance Case on Data Transmission*** \
+See the Data Transmission Assurance case for additional information 2.4.<br><br>
+***E4 - Manual review of password related source code*** \
 In the [password rotation documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/report_password_rotation.php#L4) it was validated that ITFlow will lock out user accounts where the passwords had not been changed within the last 90 days.  In addition, a report of these accounts is also made available to users with elevated access privileges for review/escalation purposes. As such, this control was considered to be sufficient to ensure passwords were being periodically changed to minimize the risk of brute force attacks.<br><br>
-***E4 - Test results from attempting to execute a stack overflow attack*** \
-***E5 - Review of logging configuration report*** \
+***E5 - Assurance Case on Database Security*** \
+See the Database Security Assurance case for additional information 2.2.<br><br>
+***E6 - Test results from attempting to execute a stack overflow attack*** \
+***E7 - Review of logging configuration report*** \
 Review of the [login configuration documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/login.php) determined that 
 ITFlow only required the following for a user to successfully login:
 - Users are required to login from a HTTPS address for enhanced security.
@@ -43,10 +47,12 @@ ITFlow only required the following for a user to successfully login:
 - User must be attempting to login from an IP address associated with a previously successful login attempt.  If not, an email is to be sent to the users designated email address notifying them of the unusual login attempt.
 
 Based on consideration for these requirements and detection methods being used, it was determined that ITFlow sufficiently monitors user accounts for abnormalities in order to reduce the risk of unauthorized access attempts<br><br>
+***E8 - Assurance case on MFA*** \
+See the MFA Assurance case for additional information 2.3.<br><br>
 #### *2.1.2 Insufficient Evidence*
-***E1 - Manual review of source code*** \
+***E2 - Manual review of source code*** \
 In the [log settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/logs.php#L17) ITFlow logs IP addresses associated with each login attempt.  This information is retained within an Audit Log document within the database.  This information is then reviewed in future login attempts as part of the [login settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/login.php#L3) where if fifteen or more failed login attempts are identified, then the corresponding IP address is automatically locked out by the system.  Based on this information and the results of the manual review of the source code, it was believed that while this control will likely block some brute force attacks, it could easily be bypassed by periodically changing IP addresses.  Further, if a threat actor just wanted to lockout the system, they could identify the IP information being using by the organization leveraging the system and repeatedly block access to the organization via a bot.  As such, this control was not considered sufficient.<br><br>
-***E2 - ITFlow Password Policy*** \
+***E3 - ITFlow Password Policy*** \
 This evidence is unavailable, an we believe it needs to be completed for ITFlow to ensure more complex passwords are being leveraged by users to reduce the risk of successful brute force attacks.<br><br>
 
 ## Project Board Link: [Assurance Case Project Board](https://github.com/users/Deeds101/projects/4/views/1)
