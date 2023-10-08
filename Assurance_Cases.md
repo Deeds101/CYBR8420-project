@@ -41,7 +41,7 @@ ITFlow only required the following for a user to successfully login:
 - Users are required to login from a HTTPS address for enhanced security.
 - Users are required to enter a valid MFA key.
 - User must not have had multipe failed login attempts (e.g., >=15) from a single IP address.
-- User must be attempting to login from an IP address associated with a previously successful login attempt.  If not, an email is to be sent to the users designated email address notifying them of the unusual login attempt. <br><br>
+- User must be attempting to login from an IP address associated with a previously successful login attempt.  If not, an email is to be sent to the users designated email address notifying them of the unusual login attempt. \
 
 Based on consideration for these requirements and detection methods being used, it was determined that ITFlow sufficiently monitors user accounts for abnormalities in order to reduce the risk of unauthorized access attempts.<br><br>
 #### *2.1.2 Insufficient Evidence*
