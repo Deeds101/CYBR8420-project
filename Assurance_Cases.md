@@ -37,59 +37,65 @@
 ## Part 2: Evidence Alignment Observations
 ### 2.1 Assurance Case 1: Login Credential Security
 #### *2.1.1 Available Evidence*
-***E4 - Manual review of password related source code*** \
-In the [password rotation documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/report_password_rotation.php#L4) it was validated that ITFlow will lock out user accounts where the passwords had not been changed within the last 90 days.  In addition, a report of these accounts is also made available to users with elevated access privileges for review/escalation purposes. As such, this control was considered to be sufficient to ensure passwords were being periodically changed to minimize the risk of brute force attacks.<br><br>
+***E4 - Manual review of password-related source code*** \
+In the [password rotation documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/report_password_rotation.php#L4) it was validated that ITFlow will lock out user accounts where the passwords had not been changed within the last 90 days. In addition, a report of these accounts is also made available to users with elevated access privileges for review/escalation purposes. As such, this control was considered to be sufficient to ensure passwords were being periodically changed to minimize the risk of brute force attacks.<br><br>
 ***E6 - ITFlow Code Base (HTML Purifier)*** \
-Review of the ITFlow Code base determined the [HTML Purifier plugin]( itflow/README.md at 537f18efd263a2ad5bf2518100288e8f336ff57e · itflow-org/itflow (github.com)) is used to scrub login input for potential buffer overflow attempts.  Review of the setup of this [plugin](http://htmlpurifier.org) determined that ITFlow was sufficiently minimizing the risk of a successful stack overflow attack.<br><br>
+Review of the ITFlow Code base determined the [HTML Purifier plugin]( itflow/README.md at 537f18efd263a2ad5bf2518100288e8f336ff57e · itflow-org/itflow (github.com)) is used to scrub login input for potential buffer overflow attempts. Review of the setup of this [plugin](http://htmlpurifier.org) determined that ITFlow was sufficiently minimizing the risk of a successful stack overflow attack.<br><br>
 ***E7 - Review of logging configuration report*** \
 Review of the [login configuration documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/login.php) determined that 
-ITFlow only required the following for a user to successfully login:
-- Users are required to login from a HTTPS address for enhanced security.
+ITFlow only required the following for a user to successfully log in:
+- Users are required to log in from a HTTPS address for enhanced security.
 - Users are required to enter a valid MFA key.
-- User must not have had multipe failed login attempts (e.g., >=15) from a single IP address.
-- User must be attempting to login from an IP address associated with a previously successful login attempt.  If not, an email is to be sent to the users designated email address notifying them of the unusual login attempt.
+- User must not have had multiple failed login attempts (e.g., >=15) from a single IP address.
+- User must be attempting to log in from an IP address associated with a previously successful login attempt.  If not, an email is to be sent to the user's designated email address notifying them of the unusual login attempt.
 
-Based on consideration for these requirements and detection methods being used, it was determined that ITFlow sufficiently monitors user accounts for abnormalities in order to reduce the risk of unauthorized access attempts<br><br>
+Based on consideration of these requirements and detection methods being used, it was determined that ITFlow sufficiently monitors user accounts for abnormalities in order to reduce the risk of unauthorized access attempts<br><br>
 #### *2.1.2 Insufficient Evidence*
 ***E2 - Manual review of source code*** \
-In the [log settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/logs.php#L17) ITFlow logs IP addresses associated with each login attempt.  This information is retained within an Audit Log document within the database.  This information is then reviewed in future login attempts as part of the [login settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/login.php#L3) where if fifteen or more failed login attempts are identified, then the corresponding IP address is automatically locked out by the system.  Based on this information and the results of the manual review of the source code, it was believed that while this control will likely block some brute force attacks, it could easily be bypassed by periodically changing IP addresses.  Further, if a threat actor just wanted to lockout the system, they could identify the IP information being using by the organization leveraging the system and repeatedly block access to the organization via a bot.  As such, this control was not considered sufficient.<br><br>
+In the [log settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/logs.php#L17) ITFlow logs IP addresses associated with each login attempt. This information is retained within an Audit Log document within the database. This information is then reviewed in future login attempts as part of the [login settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/login.php#L3) where if fifteen or more failed login attempts are identified, then the corresponding IP address is automatically locked out by the system. Based on this information and the results of the manual review of the source code, it was believed that while this control would likely block some brute-force attacks, it could easily be bypassed by periodically changing IP addresses. Further, if a threat actor just wanted to lock out the system, they could identify the IP information being used by the organization leveraging the system and repeatedly block access to the organization via a bot. As such, this control was not considered sufficient.
+<br><br>
 ***E3 - ITFlow Password Policy*** \
-This evidence is unavailable, an we believe it needs to be completed for ITFlow to ensure more complex passwords are being leveraged by users to reduce the risk of successful brute force attacks.
+This evidence is unavailable, and we believe it needs to be completed for ITFlow to ensure more complex passwords are being leveraged by users to reduce the risk of successful brute-force attacks.
 <br><br>
 
 ### 2.2 Assurance Case 2: Database Security
 #### *2.2.1 Available Evidence*
 ***E1 - Software is kept up to date*** \
-IT Flow has built database updates and version logs into the doumentation. A mechanism to maintain current versions exists. Maintaining the updates will be up to the user, but IT Flow faciliates an easy way for the user to do this.
+IT Flow has built database updates and version logs into the documentation. A mechanism to maintain current versions exists. Maintaining the updates will be up to the user, but IT Flow facilitates an easy way for the user to do this.
 
 ***E3 - Documentation indicates IT Flow uses HTML Purifier*** \
-In researching the code for IT FLow, it was found the software uses HTML Purifier, a PHP plugin, to sanitize HTML input. HTML Purifier allows developers to create whitelists, or more complex policies as needed. HTML Purifier is quite extensive, it looks to have protects against inserting malicious schemas into an SQL database as well.
+In researching the code for IT FLow, it was found the software uses HTML Purifier, a PHP plugin, to sanitize HTML input. HTML Purifier allows developers to create whitelists, or more complex policies as needed. HTML Purifier is quite extensive, it looks to protect against inserting malicious schemas into an SQL database as well.
 
 ***E5 - Assurance Case on Login Credential Security*** \
-User access to the database is password protected. The security of passwords and accounts is extensively detailed in the login Credential Assurance Case.
+User access to the database is password-protected. The security of passwords and accounts is extensively detailed in the login Credential Assurance Case.
 
 #### *2.2.2 Insufficent Evidence*
 
 ***E2 - User input is escaped*** \
-While the software uses HTML purifier to sanitize html input, no indication was foudn that the software escapes all input to normalize text. Normalizing text helps prevent malicious SQL queries from being executed as code.
+While the software uses HTML purifier to sanitize html input, no indication was found that the software escapes all input to normalize text. Normalizing text helps prevent malicious SQL queries from being executed as code.
 
 ***E4 - IT Flow follows AES as a standard*** \
-IT FLow most likely uses some kind of encryption to protect the database, and other functions, no evidence was found that points to a specific type of encryption. It would be recomended to floow the AES modern encryption standards.
+IT FLow most likely uses some kind of encryption to protect the database, and other functions, no evidence was found that points to a specific type of encryption. It would be recommended to follow the AES modern encryption standards.
+<br><br>
+
+### *2.3 Assurance Case 3: Multi-Factor Authentication*
+
+
 <br><br>
 
 ### 2.2 Assurance Case 4: Data Transmission Security
 #### *2.2.1 Available Evidence*
 ***E1 - ITFlow send function code review*** \
-As far as I can tell, ITFlow uses the "PHPMailer" library to send emails which uses opportunistic TLS to encrypt data. This could leave the application vulnerable if an attacker is in the network already. This may be considerably secure for most environments with mitigating controls. 
+As far as I can tell, ITFlow uses the "PHPMailer" library to send emails which uses opportunistic TLS to encrypt data. This could leave the application vulnerable if an attacker is in the network already. This would be sufficiently secure for most environments with mitigating controls. 
 
 ***E2 - Manual encryption function code review*** \
-Encryption is done through various means. Mailing uses "PHPMailer SMTPSecure" for TLS encryption. Mail encryption supports SSL and TLS, leaving the choice of security to the user (I'd love to see SSL deprecated and only support TLS1.2 or higher). Other forms of encryption utilizes standard HTTPS encryption protocols including OpenSSL. Login information is enforced via HTTPS.  
+Encryption is done through various means. Mailing uses "PHPMailer SMTPSecure" for TLS encryption. Mail encryption supports SSL and TLS, leaving the choice of security to the user (I'd love to see SSL deprecated and only support TLS 1.2 or higher). Other forms of encryption utilize standard HTTPS encryption protocols including OpenSSL. Login information is enforced via HTTPS.  
 
 ***E3 - Login Information Assurance Case Diagram*** \
 Reference diagram contained in this document. 
 
 ***E4 - ITFlow Key generation function*** \
-Key generation function in https://github.com/itflow-org/itflow/blob/master/api_key_add_modal.php calls "randomString(156)" in line 2. This has sufficient complexity (156 characters sanitized for HTML).
+The key generation function in https://github.com/itflow-org/itflow/blob/master/api_key_add_modal.php calls "randomString(156)" in line 2. This has sufficient complexity (156 characters sanitized for HTML).
 
 ***E5 - Database Assurance Case Diagram*** \
 Reference diagram contained in this document. 
@@ -111,17 +117,18 @@ Overview of PKI implementation appears to follow X.509 standards.
 ***None found***
 <br><br>
 
+
 ### *2.5 Assurance Case 5: Role-Based Access Control*
 
 ***E1 - Database Assurance Case*** \
-See 2.2 Assurance Case 2
+See 1.2/2.2 Assurance Case 2
 
 
 ***E2: Roles set by Admins*** \
 In the ITFlow demo site, you can create user accounts if you are logged in as an administrator. 
 
 ***E3 - Manual testing in the demo environment*** \
-I went into the demo site to test for IDOR and SSRF vulnerabilities and could not escalate my privileges on that site. I started by creating a new client logging into the client page and inspecting the element on a browser to see if there were any vulnerabilities in the webpage that I could exploit. Then i put the webpage in a burpsuite environment to see if I could see anything while crawling the page. I was not able to find anything. 
+I went into the demo site to test for IDOR and SSRF vulnerabilities and could not escalate my privileges on that site. I started by creating a new client logging into the client page and inspecting the element on a browser to see if there were any vulnerabilities in the webpage that I could exploit. Then I put the webpage in a burpsuite environment to see if I could see anything while crawling the page. I was not able to find anything. 
 
 
 ***E4 - Resolved by devs*** \
@@ -130,15 +137,22 @@ This issue was resolved by the devs of ITFlow.
 You can see the issue here: https://github.com/itflow-org/itflow/issues/673
 
 ***E5 - MFA Assurance Case*** \
-See 2.3 Assurance Case 3
+See 1.3/2.3 Assurance Case 3
 
 ***E6 - ITFlow Codebase*** \
-On the ITFlows codebase in GitHub, they sanitize the input every time a new request for a login comes through or the website is refreshed. 
+According to the ITFlow codebase in GitHub, input is sanitized every time a new request for a login comes through or the website is refreshed. 
+<br><br>
 
 ### 2.6 Assurance Case 6: Workflow Automation and Documentation Security
 ***E2 - Assurance Case on Login Credential Security*** \
+See 1.1/2.1 Assurance Case 1
+
 ***E3 - Assurance Case on MFA*** \
+See 1.3/2.3 Assurance Case 3
+
 ***E4 - Assurance Case on Login Credential Security*** \
+See 1.1/2.1 Assurance Case 1
+
 <br><br>
 
 
