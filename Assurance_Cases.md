@@ -148,6 +148,9 @@ According to the ITFlow codebase in GitHub, input is sanitized every time a new 
 <br><br>
 
 ### 2.6 Assurance Case 6: Workflow Automation and Documentation Security
+***E1 - Assurance Case on MFA*** \
+See 1.3/2.3 Assurance Case 3
+
 ***E2 - Assurance Case on Login Credential Security*** \
 See 1.1/2.1 Assurance Case 1
 
