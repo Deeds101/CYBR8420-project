@@ -39,9 +39,6 @@
 
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/eb52310f-dc62-4593-86eb-67a0a450cdf8)
 
-E2&4 - Assurance Case on Login Credential Security 
-
-E3 - Assurance Case on MFA 
 
 
 
