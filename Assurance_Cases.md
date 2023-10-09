@@ -7,7 +7,8 @@
 ### 1.2 Assurance Case 2: Database Security
 **Assurance Case:**  The ITFlow database meets security expectations. 
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/69a22b1f-3f05-4537-a0b7-17b344b992c7)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/1826c41f-d485-447a-8247-85ef17b28ae7)
+
 
 ### 1.3 Assurance Case 3: Multi-Factor Authentication
 **Assurance Case:**
