@@ -34,6 +34,7 @@
 
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/3eb9fef9-806a-41b6-9bc7-5da46efa13d9)
 
+
 ### 1.6 Assurance Case 6: Workflow Automation and Documentation Security
 **Assurance Case:**  ITFlow provides appropriate secure tracking of documentation and workflows.
 
