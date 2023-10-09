@@ -30,9 +30,9 @@ Reflection: My diagram went through many different shifts. Orginally, I had want
 
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/eb52310f-dc62-4593-86eb-67a0a450cdf8)
 
-E2&4 - Assurance Case on Login Credential Security \
+E2&4 - Assurance Case on Login Credential Security 
 
-E3 - Assurance Case on MFA \
+E3 - Assurance Case on MFA 
 
 ITFlow has a vast amount of documentation around basically everything they have written for this OSS project. It was relatively easy to find the necessary information and evidence for the Documentation and Workflows they have, as they highlight both of these parts of their project as major selling points. Documentation and Workflows also tie into the majority of the rest of the assurance case diagrams for my team, so any gap I had was filled by one of their diagrams.  
 
