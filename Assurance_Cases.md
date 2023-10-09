@@ -26,6 +26,7 @@
 - E7 - https://github.com/itflow-org/itflow/commits/master
 - E8 - Randomization uses a documented PHP function called "random_bytes" (https://www.php.net/manual/en/function.random-bytes.php) to generate a randomized string. The "randomString" function then trims the string to create URL safe keys. This function is sufficiently secure. 
 - E9 - Overview of PKI implementation appears to follow X.509 standards. 
+
 ***Summary: ITFlow appears to implement the evidence items crafted in my assurance case diagram with only minor variations.***
 
 ### 1.5 Assurance Case 5: Role-Based Access Control
