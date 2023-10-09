@@ -46,7 +46,7 @@
 
 
 ## Part 2: Evidence Alignment Observations
-### 2.1 Assurance Case 1
+### 2.1 Assurance Case 1: Login Credential Security
 #### *2.1.1 Available Evidence*
 ***E4 - Manual review of password related source code*** \
 In the [password rotation documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/report_password_rotation.php#L4) it was validated that ITFlow will lock out user accounts where the passwords had not been changed within the last 90 days.  In addition, a report of these accounts is also made available to users with elevated access privileges for review/escalation purposes. As such, this control was considered to be sufficient to ensure passwords were being periodically changed to minimize the risk of brute force attacks.<br><br>
@@ -68,7 +68,7 @@ In the [log settings documentation](https://github.com/itflow-org/itflow/blob/cd
 This evidence is unavailable, an we believe it needs to be completed for ITFlow to ensure more complex passwords are being leveraged by users to reduce the risk of successful brute force attacks.
 <br><br>
 
-### 2.2 Assurance Case 2
+### 2.2 Assurance Case 2: Database Security
 #### *2.2.1 Available Evidence*
 ***E1 - Software is kept up to date*** \
 IT Flow has built database updates and version logs into the doumentation. A mechanism to maintain current versions exists. Maintaining the updates will be up to the user, but IT Flow faciliates an easy way for the user to do this.
@@ -76,7 +76,7 @@ IT Flow has built database updates and version logs into the doumentation. A mec
 ***E3 - Documentation indicates IT Flow uses HTML Purifier*** \
 In researching the code for IT FLow, it was found the software uses HTML Purifier, a PHP plugin, to sanitize HTML input. HTML Purifier allows developers to create whitelists, or more complex policies as needed. HTML Purifier is quite extensive, it looks to have protects against inserting malicious schemas into an SQL database as well.
 
-***E5 - Assurance Case on Login Creddential Security*** \
+***E5 - Assurance Case on Login Credential Security*** \
 User access to the database is password protected. The security of passwords and accounts is extensively detailed in the login Credential Assurance Case.
 
 #### *2.2.2 Insufficent Evidence*
@@ -86,8 +86,42 @@ While the software uses HTML purifier to sanitize html input, no indication was 
 
 ***E4 - IT Flow follows AES as a standard*** \
 IT FLow most likely uses some kind of encryption to protect the database, and other functions, no evidence was found that points to a specific type of encryption. It would be recomended to floow the AES modern encryption standards.
+<br><br>
 
-### 2.6 Assurance Case 6
+### 2.2 Assurance Case 4: Data Transmission Security
+#### *2.2.1 Available Evidence*
+***E1 - ITFlow send function code review*** \
+As far as I can tell, ITFlow uses the "PHPMailer" library to send emails which uses opportunistic TLS to encrypt data. This could leave the application vulnerable if an attacker is in the network already. This may be considerably secure for most environments with mitigating controls. 
+
+***E2 - Manual encryption function code review*** \
+Encryption is done through various means. Mailing uses "PHPMailer SMTPSecure" for TLS encryption. Mail encryption supports SSL and TLS, leaving the choice of security to the user (I'd love to see SSL deprecated and only support TLS1.2 or higher). Other forms of encryption utilizes standard HTTPS encryption protocols including OpenSSL. Login information is enforced via HTTPS.  
+
+***E3 - Login Information Assurance Case Diagram*** \
+Reference diagram contained in this document. 
+
+***E4 - ITFlow Key generation function*** \
+Key generation function in https://github.com/itflow-org/itflow/blob/master/api_key_add_modal.php calls "randomString(156)" in line 2. This has sufficient complexity (156 characters sanitized for HTML).
+
+***E5 - Database Assurance Case Diagram*** \
+Reference diagram contained in this document. 
+
+***E6 - ITFlow audit log*** \
+ITFlow documents sensitive security events through robust audit log entries in its code. This is peppered throughout various security functions. 
+
+***E7 - ITFlow code changelog*** \
+https://github.com/itflow-org/itflow/commits/master
+
+***E8 - Manual code review of randomization function*** \
+Randomization uses a documented PHP function called "random_bytes" (https://www.php.net/manual/en/function.random-bytes.php) to generate a randomized string. The "randomString" function then trims the string to create URL safe keys. This function is sufficiently secure. 
+
+***E9 - Manual PKI code review*** \
+Overview of PKI implementation appears to follow X.509 standards.
+
+#### *2.2.2 Insufficent Evidence*
+
+***None found***
+<br><br>
+### 2.6 Assurance Case 6: Workflow Automation and Documentation Security
 ***E2 - Assurance Case on Login Credential Security*** \
 ***E3 - Assurance Case on MFA*** \
 ***E4 - Assurance Case on Login Credential Security*** \
