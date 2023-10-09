@@ -87,7 +87,7 @@ While the software uses HTML purifier to sanitize html input, no indication was 
 ***E4 - IT Flow follows AES as a standard*** \
 IT FLow most likely uses some kind of encryption to protect the database, and other functions, no evidence was found that points to a specific type of encryption. It would be recomended to floow the AES modern encryption standards.
 
-#### 2.6 Assurance Case 6
+### 2.6 Assurance Case 6
 ***E2 - Assurance Case on Login Credential Security*** \
 ***E3 - Assurance Case on MFA*** \
 ***E4 - Assurance Case on Login Credential Security*** \
@@ -97,8 +97,8 @@ IT FLow most likely uses some kind of encryption to protect the database, and ot
 ## Project Board Link: [Assurance Case Project Board](https://github.com/users/Deeds101/projects/4/views/1)
 
 ## Teamwork Reflection
-The team had some challenges defining the appropriate top-level claims that were applicable related to ITFlow.  This challenge was largely addressed by having additional meetings with team members to discuss and ensure alignment on what these top-level claims and how they should be worded.
 
-For this week's assignment, our team worked well together. We were able to have regularly scheduled meetings as well as add other meetings to accommodate the time necessary to plan out what was needed. One thing we did add this week to allow for more time for review of the diagrams of others was to ask that all diagrams be loaded into github by Friday. This gave all team members the time to review and add comments where necessary and gave time for those with comments on their diagrams to change those diagrams to better align with the evidence and comments given.  
+For this week's assignment, our team worked well together. We were able to have regularly scheduled meetings as well as add other meetings to accommodate the time necessary to plan out what was needed. One thing we did add this week to allow for more time for review of the diagrams of others was to ask that all diagrams be loaded into GitHub by Friday. This gave all team members the time to review and add comments where necessary and gave time for those with comments on their diagrams to change those diagrams to better align with the evidence and comments given. 
+The team did have some challenges defining the appropriate top-level claims that were applicable related to ITFlow. This challenge was largely addressed through additional meetings with team members to discuss and ensure alignment on what these top-level claims are and how they should be worded.
 
 
