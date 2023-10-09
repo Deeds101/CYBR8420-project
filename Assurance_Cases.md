@@ -110,6 +110,31 @@ Overview of PKI implementation appears to follow X.509 standards.
 
 ***None found***
 <br><br>
+
+### *2.5 Assurance Case 5: Role-Based Access Control*
+
+***E1 - Database Assurance Case*** \
+See 2.2 Assurance Case 2
+
+
+***E2: Roles set by Admins*** \
+In the ITFlow demo site, you can create user accounts if you are logged in as an administrator. 
+
+***E3 - Manual testing in the demo environment*** \
+I went into the demo site to test for IDOR and SSRF vulnerabilities and could not escalate my privileges on that site. I started by creating a new client logging into the client page and inspecting the element on a browser to see if there were any vulnerabilities in the webpage that I could exploit. Then i put the webpage in a burpsuite environment to see if I could see anything while crawling the page. I was not able to find anything. 
+
+
+***E4 - Resolved by devs*** \
+This issue was resolved by the devs of ITFlow. 
+
+You can see the issue here: https://github.com/itflow-org/itflow/issues/673
+
+***E5 - MFA Assurance Case*** \
+See 2.3 Assurance Case 3
+
+***E6 - ITFlow Codebase*** \
+On the ITFlows codebase in GitHub, they sanitize the input every time a new request for a login comes through or the website is refreshed. 
+
 ### 2.6 Assurance Case 6: Workflow Automation and Documentation Security
 ***E2 - Assurance Case on Login Credential Security*** \
 ***E3 - Assurance Case on MFA*** \
