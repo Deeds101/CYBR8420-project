@@ -92,9 +92,9 @@ Initially ITFlow did not have a function or option available to enforce the Admi
 
 ***E4 - ITFlow MFA code implementation update*** \
 After another forum update, the ITFlow Admins updated their code to move in the right direction when it conmes to forcing MFA and requiring it to be set up and not bypassed whatsoever
--https://github.com/itflow-org/itflow/commit/2a142f1c426ce1ee9016dee21b1d61fcf1aa33e1
--https://github.com/itflow-org/itflow/commit/17c8a9ab0ccbb5f03fbb550b6b01251769a84197
--https://github.com/itflow-org/itflow/commit/747b7de143b0f9addba620072af4bcd90a5f8089
+***-https://github.com/itflow-org/itflow/commit/2a142f1c426ce1ee9016dee21b1d61fcf1aa33e1***
+***-https://github.com/itflow-org/itflow/commit/17c8a9ab0ccbb5f03fbb550b6b01251769a84197***
+***-https://github.com/itflow-org/itflow/commit/747b7de143b0f9addba620072af4bcd90a5f8089***
 
 #### *2.3.2 Insufficient Evidence*
 ***E2 - ITFlow MFA Policy*** \ 
