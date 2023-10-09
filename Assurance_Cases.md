@@ -15,10 +15,19 @@
 
 ### 1.4 Assurance Case 4: Data Transmission Security
 **Assurance Case:**   ITFlow has sufficient data transit security.
+![image](https://github.com/Deeds101/CYBR8420-project/assets/143226996/fea03910-406c-4515-a947-8dd00f883b80)
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/8cc68925-434b-4f03-8472-27e27d8d7fa3)
+- E1 - As far as I can tell, ITFlow uses the "PHPMailer" library to send emails which uses opportunistic TLS to encrypt data. This could leave the application vulnerable if an attacker is in the network already. This may be considerably secure for most environments with mitigating controls. 
+- E2 - Encryption is done through various means. Mailing uses "PHPMailer SMTPSecure" for TLS encryption. Mail encryption supports SSL and TLS, leaving the choice of security to the user (I'd love to see SSL deprecated and only support TLS1.2 or higher). Other forms of encryption utilizes standard HTTPS encryption protocols including OpenSSL. Login information is enforced via HTTPS.  
+- E3 - Reference diagram contained in this document. 
+- E4 - Key generation function in https://github.com/itflow-org/itflow/blob/master/api_key_add_modal.php calls "randomString(156)" in line 2. This has sufficient complexity (156 characters sanitized for HTML). 
+- E5 - Reference diagram contained in this document. 
+- E6 - ITFlow documents sensitive security events through robust audit log entries in its code. This is peppered throughout various security functions. 
+- E7 - https://github.com/itflow-org/itflow/commits/master
+- E8 - Randomization uses a documented PHP function called "random_bytes" (https://www.php.net/manual/en/function.random-bytes.php) to generate a randomized string. The "randomString" function then trims the string to create URL safe keys. This function is sufficiently secure. 
+- E9 - Overview of PKI implementation appears to follow X.509 standards. 
 
-Reflection: My diagram went through many different shifts. Orginally, I had wanted to focus on just the billing functions within ITFlow. However, upon further review it appeared that my diagram would incorporate most of everyone's top-level claims as a sub-claim, so it felt as if my diagram did not impose a question of significant value which was not already being answered. From there, I created a version of the data transmission diagram which focused on each transmission vector as a rebuttal (mailing, web browsing, database transactions). I worked on this diagram for some time before realizing that my rebuttals resulted in the same evidence. I decided to condense my diagram further into what it is now. I realized along the way that I was not directly analyzing security functions for the software, rather, I was analyzing individual components and then trying to force security into them. I think addressing the main security functions that each component uses ended up being key to understanding the assignment. 
+**Summary: ITFlow appears to implement the evidence items crafted in my assurance case diagram with only minor variations. **
 
 ### 1.5 Assurance Case 5: Role-Based Access Control
 **Assurance Case:**   ITFlow provides secure access to roles in the environment.
