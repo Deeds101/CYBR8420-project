@@ -27,7 +27,8 @@
 ### 1.6 Assurance Case 6: Workflow Automation and Documentation Security
 **Assurance Case:**  ITFlow provides appropriate secure tracking of documentation and workflows.
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/eb52310f-dc62-4593-86eb-67a0a450cdf8)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/e6707633-dfd3-47cd-b66e-264c3eee36d5)
+
 
 
 
