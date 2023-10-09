@@ -16,7 +16,8 @@
 ### 1.4 Assurance Case 4: Data Transmission Security
 **Assurance Case:**   ITFlow has sufficient data transit security.
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/143226996/0381581f-4a5e-4967-a238-d48ae2cd5a1e)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/8cc68925-434b-4f03-8472-27e27d8d7fa3)
+
 Reflection: My diagram went through many different shifts. Orginally, I had wanted to focus on just the billing functions within ITFlow. However, upon further review it appeared that my diagram would incorporate most of everyone's top-level claims as a sub-claim, so it felt as if my diagram did not impose a question of significant value which was not already being answered. From there, I created a version of the data transmission diagram which focused on each transmission vector as a rebuttal (mailing, web browsing, database transactions). I worked on this diagram for some time before realizing that my rebuttals resulted in the same evidence. I decided to condense my diagram further into what it is now. I realized along the way that I was not directly analyzing security functions for the software, rather, I was analyzing individual components and then trying to force security into them. I think addressing the main security functions that each component uses ended up being key to understanding the assignment. 
 
 ### 1.5 Assurance Case 5: Role-Based Access Control
