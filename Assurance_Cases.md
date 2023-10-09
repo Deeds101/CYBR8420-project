@@ -87,7 +87,7 @@ IT FLow most likely uses some kind of encryption to protect the database, and ot
 
 <br><br>
 
-### 2.2 Assurance Case 4: Data Transmission Security
+### 2.4 Assurance Case 4: Data Transmission Security
 #### *2.2.1 Available Evidence*
 ***E1 - ITFlow send function code review*** \
 As far as I can tell, ITFlow uses the "PHPMailer" library to send emails which uses opportunistic TLS to encrypt data. This could leave the application vulnerable if an attacker is in the network already. This would be sufficiently secure for most environments with mitigating controls. 
