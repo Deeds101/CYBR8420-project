@@ -82,7 +82,7 @@ While the software uses HTML purifier to sanitize html input, no indication was 
 IT FLow most likely uses some kind of encryption to protect the database, and other functions, no evidence was found that points to a specific type of encryption. It would be recommended to follow the AES modern encryption standards.
 <br><br>
 
-### *2.3 Assurance Case 3: Multi-Factor Authentication*
+### 2.3 Assurance Case 3: Multi-Factor Authentication
 
 
 <br><br>
@@ -122,7 +122,7 @@ Overview of PKI implementation appears to follow X.509 standards.
 <br><br>
 
 
-### *2.5 Assurance Case 5: Role-Based Access Control*
+### 2.5 Assurance Case 5: Role-Based Access Control
 
 ***E1 - Database Assurance Case*** \
 See 1.2/2.2 Assurance Case 2
