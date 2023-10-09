@@ -28,7 +28,8 @@ Reflection: My diagram went through many different shifts. Orginally, I had want
 ### 1.6 Assurance Case 6: Workflow Automation and Documentation Security
 **Assurance Case:**  ITFlow provides appropriate secure tracking of documentation and workflows.
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/f8470081-1f83-49ad-8500-32b0324e09fe)
+![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/eb52310f-dc62-4593-86eb-67a0a450cdf8)
+
 
 
 
