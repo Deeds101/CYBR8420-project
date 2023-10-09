@@ -57,7 +57,15 @@ Based on consideration for these requirements and detection methods being used, 
 ***E2 - Manual review of source code*** \
 In the [log settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/logs.php#L17) ITFlow logs IP addresses associated with each login attempt.  This information is retained within an Audit Log document within the database.  This information is then reviewed in future login attempts as part of the [login settings documentation](https://github.com/itflow-org/itflow/blob/cd006d0625d638880fe3d6e1c4210eb14e504dbd/login.php#L3) where if fifteen or more failed login attempts are identified, then the corresponding IP address is automatically locked out by the system.  Based on this information and the results of the manual review of the source code, it was believed that while this control will likely block some brute force attacks, it could easily be bypassed by periodically changing IP addresses.  Further, if a threat actor just wanted to lockout the system, they could identify the IP information being using by the organization leveraging the system and repeatedly block access to the organization via a bot.  As such, this control was not considered sufficient.<br><br>
 ***E3 - ITFlow Password Policy*** \
-This evidence is unavailable, an we believe it needs to be completed for ITFlow to ensure more complex passwords are being leveraged by users to reduce the risk of successful brute force attacks.<br><br>
+This evidence is unavailable, an we believe it needs to be completed for ITFlow to ensure more complex passwords are being leveraged by users to reduce the risk of successful brute force attacks.<br><be>
+
+
+#### *2.1.6 Workflow Automation and Documentation*
+***E2 - Assurance Case on Login Credential Security*** \
+***E3 - Assurance Case on MFA*** \
+***E4 - Assurance Case on Login Credential Security*** \
+<br><br>
+
 
 ## Project Board Link: [Assurance Case Project Board](https://github.com/users/Deeds101/projects/4/views/1)
 
