@@ -7,7 +7,8 @@
 ### 1.2 Assurance Case 2: Database Security
 **Assurance Case:**  The ITFlow database meets security expectations. 
 
-![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/1826c41f-d485-447a-8247-85ef17b28ae7)
+![Draft1Assurance Claim Diagram](https://github.com/Deeds101/CYBR8420-project/assets/107895832/360918f7-5919-4917-8480-41f63288f59b)
+
 
 
 ### 1.3 Assurance Case 3: Multi-Factor Authentication
@@ -67,6 +68,24 @@ In the [log settings documentation](https://github.com/itflow-org/itflow/blob/cd
 This evidence is unavailable, an we believe it needs to be completed for ITFlow to ensure more complex passwords are being leveraged by users to reduce the risk of successful brute force attacks.
 <br><br>
 
+### 2.2 Assurance Case 2
+#### *2.2.1 Available Evidence*
+***E1 - Software is kept up to date*** \
+IT Flow has built database updates and version logs into the doumentation. A mechanism to maintain current versions exists. Maintaining the updates will be up to the user, but IT Flow faciliates an easy way for the user to do this.
+
+***E3 - Documentation indicates IT Flow uses HTML Purifier*** \
+In researching the code for IT FLow, it was found the software uses HTML Purifier, a PHP plugin, to sanitize HTML input. HTML Purifier allows developers to create whitelists, or more complex policies as needed. HTML Purifier is quite extensive, it looks to have protects against inserting malicious schemas into an SQL database as well.
+
+***E5 - Assurance Case on Login Creddential Security*** \
+User access to the database is password protected. The security of passwords and accounts is extensively detailed in the login Credential Assurance Case.
+
+#### *2.2.2 Insufficent Evidence*
+
+***E2 - User input is escaped*** \
+While the software uses HTML purifier to sanitize html input, no indication was foudn that the software escapes all input to normalize text. Normalizing text helps prevent malicious SQL queries from being executed as code.
+
+***E4 - IT Flow follows AES as a standard*** \
+IT FLow most likely uses some kind of encryption to protect the database, and other functions, no evidence was found that points to a specific type of encryption. It would be recomended to floow the AES modern encryption standards.
 
 #### 2.6 Assurance Case 6
 ***E2 - Assurance Case on Login Credential Security*** \
