@@ -50,7 +50,7 @@
 #### *2.1.1 Available Evidence*
 ***E4 - Manual review of password related source code*** \
 In the [password rotation documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/report_password_rotation.php#L4) it was validated that ITFlow will lock out user accounts where the passwords had not been changed within the last 90 days.  In addition, a report of these accounts is also made available to users with elevated access privileges for review/escalation purposes. As such, this control was considered to be sufficient to ensure passwords were being periodically changed to minimize the risk of brute force attacks.<br><br>
-***E6 - Manual review of HTML Purifier*** \
+***E6 - ITFlow Codebase (HTML Purifier)*** \
 Review of the ITFlow Code base determined the [HTML Purifier plugin]( itflow/README.md at 537f18efd263a2ad5bf2518100288e8f336ff57e · itflow-org/itflow (github.com)) is used to scrub login input for potential buffer overflow attempts.  Review of the setup of this [plugin](http://htmlpurifier.org) determined that ITFlow was sufficiently minimizing the risk of a successful stack overflow attack.<br><br>
 ***E7 - Review of logging configuration report*** \
 Review of the [login configuration documentation](https://github.com/itflow-org/itflow/blob/5b49d35f1a0241060c0f83ee696aa53df2f3c782/login.php) determined that 
