@@ -149,7 +149,7 @@ According to the ITFlow codebase in GitHub, input is sanitized every time a new 
 
 ### 2.6 Assurance Case 6: Workflow Automation and Documentation Security
 ***E1 - Assurance Case on MFA*** \
-See 1.3/2.3 Assurance Case 3
+ITFlow does not enforce MFA by default but allows it to be used to help secure login functions. For further information on ITFlow's use of MFA, see 1.3/2.3 Assurance Case 3.
 
 ***E2 - Assurance Case on Login Credential Security*** \
 See 1.1/2.1 Assurance Case 1
