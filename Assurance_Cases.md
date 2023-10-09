@@ -4,19 +4,23 @@
 
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/87542247/2e814cbc-baf8-405f-b38b-2b719ed1c3ef)
 
+
 ### 1.2 Assurance Case 2: Database Security
 **Assurance Case:**  The ITFlow database meets security expectations. 
 
 ![Draft1Assurance Claim Diagram](https://github.com/Deeds101/CYBR8420-project/assets/107895832/360918f7-5919-4917-8480-41f63288f59b)
 
 
-
 ### 1.3 Assurance Case 3: Multi-Factor Authentication
-**Assurance Case:**
+**Assurance Case:** IT Flow effectively utilizes MFA security requirements.
+![image](https://github.com/Deeds101/CYBR8420-project/blob/main/AssuranceClaimDiagrams/MFA%20Assurance%20Case.PNG)
+
 
 ### 1.4 Assurance Case 4: Data Transmission Security
 **Assurance Case:**   ITFlow has sufficient data transit security.
+
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/143226996/fea03910-406c-4515-a947-8dd00f883b80)
+
 
 ### 1.5 Assurance Case 5: Role-Based Access Control
 **Assurance Case:**   ITFlow provides secure access to roles in the environment.
