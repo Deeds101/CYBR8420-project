@@ -84,21 +84,21 @@ IT FLow most likely uses some kind of encryption to protect the database, and ot
 
 ### 2.3 Assurance Case 3: Multi-Factor Authentication
 #### *2.3.1 Available Evidence*
-***E1 - Login information assurance case diagram*** \
-The encryption is for login and MFA is further described in the assurance diagram for the login information side. Within that diagram, it goes into detail on the encryption that ITFlow has for its login system and credentials.
+***E1 - Login Information Assurance Case Diagram*** \
+The encryption for login and MFA is further described in the assurance diagram. Within that diagram, it goes into detail on the encryption that ITFlow implements for its login system and credentials.
 
 ***E3 - Review of ITFlow forum update*** \
-Initially, ITFlow did not have a function or option available to enforce the Admin users or any users logging in to require MFA. There was an option to opt into it which left vulnerabilities that could have been exploited if a simple password was hashed or cracked. After reviewing a forum update further on the need to force the implementation, developers did end up saying that they were going to change that option to become available and progress on the workings of enforcing MFA for Admin accounts. [Force MFA Request](https://forum.itflow.org/d/304-feature-request-force-mfa)
+Initially, ITFlow did not have a function or option available to force MFA for Admin users or any users at login. There was an option to opt into it which left exploitable vulnerabilities if a simple password was hashed or cracked. After reviewing a forum update further on the need to force the implementation, developers did end up saying that they were going to change that option to become available and progress on the workings of enforcing MFA for Admin accounts. [Force MFA Request](https://forum.itflow.org/d/304-feature-request-force-mfa)
 
 ***E4 - ITFlow MFA code implementation update*** \
-After another forum update, the ITFlow Admins updated their code to move in the right direction when it comes to forcing MFA and requiring it to be set up and not bypassed whatsoever
+After another forum update, the ITFlow Admins updated their code to move in the right direction when it comes to forcing MFA and requiring it to be set up and not bypassed whatsoever.
 - [commit 1](https://github.com/itflow-org/itflow/commit/2a142f1c426ce1ee9016dee21b1d61fcf1aa33e1)
 - [commit 2](https://github.com/itflow-org/itflow/commit/17c8a9ab0ccbb5f03fbb550b6b01251769a84197)
 - [commit 3](https://github.com/itflow-org/itflow/commit/747b7de143b0f9addba620072af4bcd90a5f8089)
 
 #### *2.3.2 Insufficient Evidence*
 ***E2 - ITFlow MFA Policy*** \ 
-While there were multiple minor mentions and thoughts from the developers regarding the implementation of a strict policy for a specific list of requirements for MFA to meet in order to decrease risk factors, there was never a set-in-stone policy put in place. 
+While there were multiple minor mentions and thoughts from the developers regarding the implementation of a strict policy for a specific list of requirements MFA must meet in order to decrease risk factors, there was never a set-in-stone policy put in place. 
 <br><br>
 
 ### 2.4 Assurance Case 4: Data Transmission Security
