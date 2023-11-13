@@ -4,7 +4,7 @@
 
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/107895832/0260b259-08b2-451b-854e-3346181445c4)
 
-Diagram was complied from individual team memebers diagrams to account for overlap and simplicity
+Diagram was compiled from individual team memebers diagrams to mitigate redundancy and increase simplicity.
 
 TMT Report - https://github.com/Deeds101/CYBR8420-project/blob/main/DFD-Final.htm
 
