@@ -12,17 +12,17 @@ TMT Report - https://github.com/Deeds101/CYBR8420-project/blob/main/DFD-Final.ht
 
 ## Findings
 
-### **Spoofing the ITFlow Web Portal Process**
+1. ### **Spoofing the ITFlow Web Portal Process**
 
 ITFlow Web Portal may be spoofed by an attacker and this may lead to information disclosure by Core Database. Consider using a standard authentication mechanism to identify the destination process.
 
 **Justification:** Aside from authentication, there is no additional verification measure indicated for DB and web portal communication. May need additional control implemented.\
 \
-  **Finding** - Cross-Site Request Forgery: There was a concern with cross-site request forgery utilizing browser session cookies. A quick review showed that  protections may not have been in place for this threat. However, after a review of the code, we found that ITFlow utilizes a specialized session token for sensitive functions to prevent cross-site request forgery attacks.
+    **Finding** - Cross-Site Request Forgery: There was a concern with cross-site request forgery utilizing browser session cookies. A quick review showed that  protections may not have been in place for   this threat. However, after a review of the code, we found that ITFlow utilizes a specialized session token for sensitive functions to prevent cross-site request forgery attacks.
 ![image](https://github.com/Deeds101/CYBR8420-project/assets/107895832/3af35be5-9071-47b9-914d-5560132efe18)
 
 
-### Spoofing of Source Data Store Core Database
+2. ### Spoofing of Source Data Store Core Database
 
 Core Database may be spoofed by an attacker and this may lead to incorrect data delivered to ITFlow Web Portal. Consider using a standard authentication mechanism to identify the source data store.
 
