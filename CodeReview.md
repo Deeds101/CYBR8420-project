@@ -18,6 +18,7 @@ Lines 28-47 is a check to see if a file is attached for uploading directly into
 the query *mysqli_query.* This could give bad actors direct access to the database.
 
 **[CWE-89](https://cwe.mitre.org/data/definitions/89.html)**
+**[CEW-23](https://cwe.mitre.org/data/definitions/23.html)**
 
 ### File Analysis: plugins/PHPMailer/src/*POP3.php*
 
